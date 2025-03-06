@@ -1,0 +1,70 @@
+.marketing {
+  background: linear-gradient(90deg, #cd1a40 -11%, #ff803c 109.5%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 9.5rem;
+  height: 494px;
+  margin-top: 13rem;
+}
+.marketing_image img {
+  height: 650px;
+  width: 595px;
+}
+.marketing_text {
+  padding: 6.6rem 8.8rem;
+}
+.marketing_text h1 {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 2.9rem;
+  line-height: 3.3rem;
+  color: #ffffff;
+  padding-top: 8rem;
+}
+.marketing_text p {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #ffffff;
+  padding-top: 1.7rem;
+}
+.marketing_search {
+  display: flex;
+  align-items: center;
+  width: 580px;
+  height: 75px;
+  margin-top: 1.7rem;
+}
+.marketing_search input {
+  backdrop-filter: blur(6px);
+  background: #ffffff33;
+  width: 490px;
+  height: 75px;
+  padding-left: 1.6rem;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #ffffff;
+}
+.marketing_search ::placeholder {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #ffffff;
+}
+.marketing_icon {
+  background: #ffffff;
+  height: 75px;
+  width: 100px;
+  padding: 2rem 2.8rem;
+  cursor: pointer;
+}
+.marketing_icon .fa-solid {
+  color: #ff803c;
+  width: 1.3rem;
+  height: 1rem;
+}

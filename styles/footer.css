@@ -1,0 +1,46 @@
+.footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 4.3rem 9rem 4.3rem 6rem;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_box h2 {
+  font-family: "Clicker Script";
+  font-weight: 400;
+  font-size: 3.8rem;
+  line-height: 5rem;
+  color: #ffffff;
+}
+.footer_box p {
+  font-family: "Work Sans";
+  font-weight: 300;
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  color: #ffffff;
+}
+.footer_box h1 {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #ffffff;
+  padding-bottom: 1.8rem;
+}
+.footer_title p {
+  padding-bottom: 1rem;
+  font-family: "Work Sans";
+  font-weight: 300;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+}
+.footers{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}

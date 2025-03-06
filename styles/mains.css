@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Water+Brush&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+section {
+  padding: 2rem 7rem;
+}
+button {
+  cursor: pointer;
+}

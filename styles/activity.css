@@ -1,0 +1,77 @@
+.activity_title {
+  text-align: center;
+}
+.activity_title h3 {
+  font-family: "Water Brush";
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 4.1rem;
+  color: #cd1a40;
+}
+.activity_title h1 {
+  font-family: "Work Sans";
+  font-weight: 200;
+  font-size: 4rem;
+  line-height: 4.6rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.activity_title p {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #1e1e1e;
+}
+.activity_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2.5rem;
+}
+.activity_box {
+  background: #fff9f0;
+  width: 420px;
+  padding: 2.5rem 2.05rem;
+  border-radius: 6px;
+}
+.activity_box img {
+  padding: 2.5rem 7.5rem;
+}
+.activity_box h1 {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  color: #999999;
+  text-align: center;
+  padding-bottom: 11px;
+}
+.activity_box p {
+  text-align: center;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  color: #999999;
+}
+.activity_box:nth-child(1) {
+  background: linear-gradient(90deg, #cd1a40 -11%, #ff803c 109.5%);
+}
+.activity_box .add {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  color: #ffffff;
+  text-align: center;
+  padding-bottom: 11px;
+}
+.activity_box .ppp {
+  text-align: center;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  color: #ffffff;
+}

@@ -1,0 +1,66 @@
+.popular_title {
+  text-align: center;
+}
+.popular_title h3 {
+  font-family: "Water Brush";
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 4.1rem;
+  color: #cd1a40;
+}
+.popular_title h1 {
+  font-family: "Work Sans";
+  font-weight: 200;
+  font-size: 4rem;
+  line-height: 4.6rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.popular_title p {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #1e1e1e;
+}
+.popular_container {
+  display: flex;
+  align-items: center;
+  width: 450px;
+  gap: 4rem;
+  margin-top: 2.3rem;
+}
+.popular_box {
+  width: 450px;
+  background: #fff9f0;
+  border-radius: 0 6px 6px 0;
+}
+.popular_text {
+  padding: 1rem 1.5rem 1.3rem 1.5rem;
+  width: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popular_text1 h1 {
+  font-family: "Work Sans";
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  color: #1e1e1e;
+}
+.popular_text1 p {
+  font-family: "Work Sans";
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  color: #1e1e1e;
+  padding-top: 0.2rem;
+}
+.popular_text2 p {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.1rem;
+  color: #1e1e1e;
+}

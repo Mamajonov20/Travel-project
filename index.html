@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/mains.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/activity.css" />
+    <link rel="stylesheet" href="styles/popular.css" />
+    <link rel="stylesheet" href="styles/share.css" />
+    <link rel="stylesheet" href="styles/review.css" />
+    <link rel="stylesheet" href="styles/marketing.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+  </head>
+  <body>
+    <!-- header section starts -->
+    <header>
+      <section class="header_navbar">
+        <div class="header_logo">
+          <h1>Listee Travel</h1>
+        </div>
+        <ul class="header_nav">
+          <li class="header_nav_text">Home</li>
+          <li class="header_nav_text">About Us</li>
+          <li class="header_nav_text">Destinations</li>
+          <li class="header_nav_text">Tours</li>
+          <li class="header_nav_text">Shop</li>
+          <li class="header_nav_text">Blogs</li>
+        </ul>
+        <div class="header_button">
+          <div class="hbtn1">Sign In</div>
+          <div class="signup-container">
+            <button class="signup-button" onclick="toggleSignup()">
+              Sign Up
+            </button>
+          </div>
+
+          <div id="signup-modal" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="toggleSignup()">&times;</span>
+              <h2>Sign Up</h2>
+              <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required />
+                <button type="submit">Register</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="header_title">
+        <h2>Explorer and Travel</h2>
+        <h1>Let’s Go Now</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          <br />
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          <br />
+          since the 1500s,
+        </p>
+        <div class="header_title_container">
+          <div class="title_box">
+            <div class="title_icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="title_text">
+              <p>Location</p>
+              <h1>Thailand</h1>
+            </div>
+          </div>
+          <div class="title_box2"></div>
+          <div class="title_box">
+            <div class="title_icon">
+              <i class="fa-solid fa-calendar-days"></i>
+            </div>
+            <div class="title_text">
+              <div id="watch">clock</div>
+            </div>
+          </div>
+          <div class="title_box3">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- header section ends -->
+    <!-- hero section starts -->
+    <section class="hero">
+      <div class="hero_title">
+        <h3>Choose your</h3>
+        <h1>Destination</h1>
+      </div>
+      <div class="hero_image">
+        <div class="hero_img_box1">
+          <div class="img_box">
+            <h1>Malaysia</h1>
+            <button>16 Tours</button>
+          </div>
+        </div>
+        <div class="hero_img_box2">
+          <div class="hero_box1">
+            <div class="img_frame">
+              <div class="img_box1">
+                <h1>Dubai</h1>
+                <button>16 Tours</button>
+              </div>
+            </div>
+            <div class="img_frame2">
+              <div class="img_box1">
+                <h1>Greece</h1>
+                <button>16 Tours</button>
+              </div>
+            </div>
+          </div>
+          <div class="hero_box2">
+            <div class="img_box2">
+              <h1>Singapore</h1>
+              <button>16 Tours</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="btn">View More</button>
+    </section>
+    <!-- hero section ends -->
+    <!-- activity section starts -->
+    <section class="activity">
+      <div class="activity_title">
+        <h3>Travel by</h3>
+        <h1>ACTIVITY</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been <br />
+          the industry's standard dummy text ever since the 1500s,
+        </p>
+      </div>
+      <div class="activity_container">
+        <div class="activity_box">
+          <img src="images/Layer_1.png" alt="" />
+          <h1 class="add">Adventure</h1>
+          <p class="ppp">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,
+          </p>
+        </div>
+        <div class="activity_box">
+          <img src="images/Layer_2.png" alt="" />
+          <h1>Camping</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,
+          </p>
+        </div>
+        <div class="activity_box">
+          <img src="images/Layer_3.png" alt="" />
+          <h1>Trekking</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,
+          </p>
+        </div>
+        <div class="activity_box">
+          <img src="images/Layer_4.png" alt="" />
+          <h1>Off Road</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,
+          </p>
+        </div>
+        <div class="activity_box">
+          <img src="images/Layer_5.png" alt="" />
+          <h1>Camp Fire</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,
+          </p>
+        </div>
+        <div class="activity_box">
+          <img src="images/Layer_6.png" alt="" />
+          <h1>Expiring</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s,
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- activity section ends -->
+    <!-- popular section starts -->
+    <section class="popular">
+      <div class="popular_title">
+        <h3>Popular</h3>
+        <h1>TOUR PACKAGES</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been <br />
+          the industry's standard dummy text ever since the 1500s,
+        </p>
+      </div>
+      <div class="popular_container">
+        <div class="popular_box">
+          <div class="populars">
+            <img src="images/Rectangle 34.png" alt="" />
+            <div class="popular_text">
+              <div class="popular_text1">
+                <h1>ROME, ITALY</h1>
+                <p>10 days trip</p>
+              </div>
+              <div class="popular_text2">
+                <p>$5.24K</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="popular_box">
+          <img src="images/Rectangle 35.png" alt="" />
+          <div class="popular_text">
+            <div class="popular_text1">
+              <h1>LAHORE, PAKISTAN</h1>
+              <p>6 days trip</p>
+            </div>
+            <div class="popular_text2">
+              <p>$3.25K</p>
+            </div>
+          </div>
+        </div>
+        <div class="popular_box">
+          <img src="images/Rectangle 36.png" alt="" />
+          <div class="popular_text">
+            <div class="popular_text1">
+              <h1>SINGAPORE</h1>
+              <p>6 days trip</p>
+            </div>
+            <div class="popular_text2">
+              <p>$7.00K</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- popular section ends -->
+    <!-- share section starts -->
+    <section class="share">
+      <div class="share_title">
+        <h3>Best Traveler’s</h3>
+        <h1>SHARED PHOTOS</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been <br />
+          the industry's standard dummy text ever since the 1500s,
+        </p>
+      </div>
+      <div class="share_container">
+        <div class="share_box">
+          <img src="images/share1.png" alt="" />
+        </div>
+        <div class="share_box">
+          <img src="images/share2.png" alt="" />
+        </div>
+        <div class="share_box">
+          <img src="images/share3.png" alt="" />
+        </div>
+        <div class="share_box">
+          <img src="images/share4.png" alt="" />
+        </div>
+        <div class="share_box">
+          <img src="images/share5.png" alt="" />
+        </div>
+        <div class="share_box">
+          <img src="images/share6.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- share section ends -->
+    <!-- review section starts -->
+    <section class="review">
+      <div class="review_title">
+        <h3>Review & Testimonials</h3>
+        <h1>TOP REVIEWS FOR ETOUR</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been <br />
+          the industry's standard dummy text ever since the 1500s,
+        </p>
+      </div>
+    </section>
+    <div class="review_container">
+      <div class="review_img">
+        <img src="images/“.png" alt="" />
+      </div>
+      <div class="review_text">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's <br />
+          standard dummy text ever since the 1500s, when an unknown printer took
+          a galley of type and scrambled it to make a type specimen book. It has
+          survived not only five centuries, but also the leap into electronic
+          typesetting, remaining essentially unchanged. It was popularised in
+          the 1960s.....
+        </p>
+      </div>
+    </div>
+    <div class="review_icon">
+      <div class="review_ellipse">
+        <img src="images/Ellipse 4.png" alt="" />
+      </div>
+      <div class="review_ellipse">
+        <img src="images/Ellipse 5.png" alt="" />
+      </div>
+      <div class="review_ellipse">
+        <img src="images/Ellipse 6.png" alt="" />
+      </div>
+      <div class="review_ellipse">
+        <img src="images/Ellipse 7.png" alt="" />
+      </div>
+      <div class="review_ellipse">
+        <h1>Scarlett Thomas</h1>
+        <p>Singapore</p>
+      </div>
+      <div class="review_ellipse">
+        <img src="images/Ellipse 8.png" alt="" />
+      </div>
+      <div class="review_ellipse">
+        <img src="images/Ellipse 9.png" alt="" />
+      </div>
+    </div>
+    <!-- review section ends -->
+    <!-- marketing section starts -->
+    <div class="marketing">
+      <div class="marketing_image">
+        <img src="images/pngwing.com 1.png" alt="" />
+      </div>
+      <div class="marketing_text">
+        <h1>
+          Get Our Monthly <br />
+          Newsletter
+        </h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          <br />
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          <br />
+          since the 1500s, when an unknown printer took a galley of type and
+          <br />
+          scrambled it to make a type specimen book.
+        </p>
+        <div class="marketing_search">
+          <input type="email" placeholder="Input your emaill address in here" />
+          <div class="marketing_icon">
+            <i class="fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- marketing section ends -->
+    <!-- footer section starts -->
+    <div class="footer">
+      <div class="footer_container">
+        <div class="footer_box">
+          <h2>Listee Travel</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and <br />
+            typesetting industry. Lorem Ipsum has been the industry's <br />
+            standard dummy text ever since the 1500s, when an <br />
+            unknown printer took a galley of type and scrambled it to <br />
+            make a type specimen book.
+          </p>
+        </div>
+        <div class="footer_box">
+          <h1>About</h1>
+          <div class="footer_title">
+            <p>Menu</p>
+            <p>Features</p>
+            <p>News & Blogs</p>
+            <p>Help & Supports</p>
+          </div>
+        </div>
+        <div class="footer_box">
+          <h1>Company</h1>
+          <div class="footer_title">
+            <p>How we work</p>
+            <p>Terms of service</p>
+            <p>Pricing</p>
+            <p>FAQ</p>
+          </div>
+        </div>
+        <div class="footer_box">
+          <h1>Contact Us</h1>
+          <div class="footer_title">
+            <p>
+              Akshya Nagar 1st Block 1st Cross, <br />
+              Rammurthy nagar, Bangalore-560016
+            </p>
+            <p>+1 202-918-2132</p>
+            <p>listeetravel@mail.com</p>
+            <p>www.listeetravel.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="footers">
+        <div class="footer_icon">
+          <img src="images/facebook.png" alt="" />
+        </div>
+        <div class="footer_icon">
+          <img src="images/instagram.png" alt="" />
+        </div>
+        <div class="footer_icon">
+          <img src="images/youtube.png" alt="" />
+        </div>
+        <div class="footer_icon">
+          <img src="images/twitter.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- footer section ends -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

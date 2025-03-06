@@ -1,0 +1,35 @@
+.share_title {
+  text-align: center;
+}
+.share_title h3 {
+  font-family: "Water Brush";
+  font-weight: 400;
+  font-size: 2.8rem;
+  line-height: 4.1rem;
+  color: #cd1a40;
+}
+.share_title h1 {
+  font-family: "Work Sans";
+  font-weight: 200;
+  font-size: 4rem;
+  line-height: 4.6rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.share_title p {
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #1e1e1e;
+}
+.share_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  margin-top: 2.3rem;
+}
+.share_box img {
+  width: 417px;
+  height: 500px;
+}
